@@ -7,8 +7,8 @@
 <body>
     <h1>This is the page for the student with id {{ student_id }}.</h1>
     <a href="{{ url_for('home') }}"> Back to home </a>
-    <h2>This is the page for the student with name {{ student.name }}</h2>
-    <h2>This is the page for the student with year {{ student.year }}</h2>
-    <h2>This is the page for the student that finished lab {{ student.finished_lab }}</h2>
+    <h2>Student name is {{ student.name }}</h2>
+    <h2>Student year is {{ student.year }}</h2>
+    <h2>This student finished finished the lab - {{ student.finished_lab }}</h2>
 </body>
 </html>
